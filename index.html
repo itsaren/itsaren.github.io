@@ -1,0 +1,121 @@
+<!--Aren Francis ITEC 240 HTML ONLY Assignment-->
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+	<meta charset="utf-8">
+	<title> Aren's Photos </title>
+</head>
+	
+<body>
+<header>
+	<h1>Aren's Photo Website</h1>
+	
+	<p>Hello, I am <b>Aren Francis</b>, this is a webpage that I made using just <i>HTML</i> and <em><strong>no CSS</strong></em>. This webpage contains all the stuff we learned from Nicole Alexander in the ITEC 240 class so far. I'm going to use this website to showcase some photos that I took over the years as a <b>hobby photographer</b> as well as talk a little bit about the hobby. I hope you all enjoy your stay! </p><br>
+</header>
+<section><!--list-->	
+	<h3>Why Nature photography?</h3>
+	<p>I've always liked photography growing up and nature has a number of positive effects on me:</p>
+		<ul>
+			<li>Spending time in nature reduces my anxiety.</li>
+			<li>The air is cleaner and I feel more revitalised.</li>
+			<li>Walking in nature get's the blood flowing and is good for the heart.</li>
+			<li>Seeing rare wildlife can instantly lift my mood.</li>
+		</ul>
+</section>
+<section><!--table-->
+	<h3>My photos!</h3>
+		<p>Here are some of my photos. These are just a few, if you want to see some more you can find them here on <a href="https://www.flickr.com/photos/129667817@N02/"><em>flickr</em></a> or on my photography <a href="https://www.instagram.com/afoto_ig/"><em>Instagram.</em></a>
+	<table border="1"><!-- may show an error in validation-->
+		<thead>
+		<tr>
+			<th>Photo</th>
+			<th>Description</th>
+			<th>Location</th>
+		</tr>
+		</thead>
+		
+		<tbody>
+		<tr>
+			<td><img src="images/kingfisher.jpg" alt="American Pygmy Kingfisher" height="300" width="500"></td>
+			<td>American Pygmy Kingfisher.</td>
+			<td>Wildfowl Trust</td>
+		</tr>
+		<tr>
+			<td><img src="images/milkyway.jpg" alt="The Milky Way" height="300" width="500"></td>
+			<td>The Milky Way.</td>
+			<td>Guayamara Bay, <br>East Coast of Trinidad</td>
+		</tr>
+		<tr>
+			<td><img src="images/sudamas.jpg" alt="Sudamas River" height="300" width="500"></td>
+			<td>Perfectly calm reflective river.</td>
+			<td>Sudamas, Woodland, <br>South Trinidad</td>
+		</tr>
+		<tr>
+			<td><img src="images/cardinal.jpg" alt="Masked Cardinal" height="300" width="500"></td>
+			<td>Masked Cardinal.</td>
+			<td>Wildfowl Trust</td>
+		</tr>
+		<tr>
+			<td><img src="images/pawi.jpg" alt="Pawi" height="300" width="500"></td>
+			<td>Trinidad Piping Guan AKA Pawi.<br>A <strong>critically endangered</strong> bird endemic to Trinidad.</td>
+			<td>Grand Riviere, <br>Trinidad</td>
+		</tr>
+	</table>
+</section>
+<section>
+	<h4>Quick optional survey!</h4>
+	<form>
+		<label for="fname">First name:</label><br>
+		<input type="text" id="fname" name="fname" size="25"><br>
+		<label for="lname">Last name:</label><br>
+		<input type="text" id="lname" name="lname" size="25"><br>
+		<p>Gender</p>
+		<input type="radio" name="gender" value="male"> Male<br>
+		<input type="radio" name="gender" value="female"> Female<br>
+		<input type="radio" name="gender" value="other"> Other <br>
+		<p>Hobbies:</p>
+		<input type="checkbox" id="hobby1" name="hobby1" value="Photography">
+		<label for="hobby1"> Photography</label><br>
+		<input type="checkbox" id="hobby2" name="hobby2" value="Hiking">
+		<label for="hobby2"> Hiking</label><br>
+		<input type="checkbox" id="hobby3" name="hobby3" value="Swimming">
+		<label for="hobby3"> Swimming</label><br>
+		<input type="checkbox" id="hobby4" name="hobby4" value="Fishing">
+		<label for="hobby4"> Fishing</label><br>
+		<input type="checkbox" id="hobby5" name="hobby5" value="Other">
+		<label for="hobby5"> Other</label><br>
+		Please Specify<br>
+		<textarea name="otherhobby" rows="3" cols="20">
+		</textarea><br><br>		
+		<label for="email">Email Address:</label><br>
+		<input type="email" id="email" name="email"><br><br>
+		<label for="device">Select your preferred device</label><br>
+		<select name="device" id="device">
+		<option selected>Desktop PC</option>
+		<option>Laptop</option>
+		<option>Phone</option>
+		<option>Tablet</option>
+		<option>Other</option>
+		</select><br>
+		<p>Want to see some changes on the site? Comment below!</p>
+		<textarea name="comments" rows="5" cols="30">
+		</textarea><br>
+			
+		<input type="submit" value="Submit All">
+		<input type="reset" value="Clear Form">
+	</form>
+<footer>
+	<h4>Contact Information</h4>
+		<address>
+			Home: Gasparillo, Trinidad <br>
+			Email: <a href="mailto:arenfrancis@hotmail.com">arenfrancis@hotmail.com</a><br>
+			Phone: 690-0420
+		</address>
+</footer>
+	
+	</body>
+	
+	
+</html>
